@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.env
+
+# Results directory - keep structure but ignore contents
+results/analysis/*
+!results/analysis/.gitkeep
+!results/analysis/README.md
+
+results/logs/*
+!results/logs/.gitkeep
+!results/logs/README.md
+
+results/reports/*
+!results/reports/.gitkeep
+!results/reports/README.md
+
+results/temp/*
+!results/temp/.gitkeep
+!results/temp/README.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Nextflow
+.nextflow*
+work/
+
+# Docker
+.docker/
